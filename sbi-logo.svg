@@ -1,20 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="SBI Bakuna Eskwela emblem">
   <title>SBI · Bakuna Eskwela</title>
   <defs>
-    <linearGradient id="sbiShield" x1="0" y1="0" x2="0.35" y2="1">
+    <linearGradient id="sbiBadge" x1="0.15" y1="0" x2="0.6" y2="1">
       <stop offset="0" stop-color="#17867D"/>
       <stop offset="1" stop-color="#0B4A55"/>
     </linearGradient>
   </defs>
-  <!-- shield: protection -->
-  <path d="M60 5C77 13 93 15 106 15V55C106 84 86 104 60 115C34 104 14 84 14 55V15C27 15 43 13 60 5Z" fill="url(#sbiShield)"/>
-  <!-- gold inner rim: official accent -->
-  <path d="M60 13.5C75 20.5 89 22.5 98.5 22.5V55.5C98.5 79.5 82 96.5 60 106C38 96.5 21.5 79.5 21.5 55.5V22.5C31 22.5 45 20.5 60 13.5Z" fill="none" stroke="#F2B705" stroke-width="2.6"/>
-  <!-- schoolhouse: school-based -->
-  <path d="M33 59L60 36.5L87 59" fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="40" y="55" width="40" height="31" rx="3.5" fill="#fff"/>
-  <!-- heart door: care / health -->
-  <path d="M60 82.5C49.5 75.5 50 64.5 56.2 65.2C58.2 65.4 59.4 66.8 60 68.3C60.6 66.8 61.8 65.4 63.8 65.2C70 64.5 70.5 75.5 60 82.5Z" fill="#E4574F"/>
-  <!-- sparkle: friendly campaign feel -->
-  <path d="M86.5 27.5L88.6 33.4L94.5 35.5L88.6 37.6L86.5 43.5L84.4 37.6L78.5 35.5L84.4 33.4Z" fill="#F2B705"/>
+  <!-- round badge: an official seal shape -->
+  <circle cx="60" cy="60" r="57" fill="url(#sbiBadge)"/>
+  <!-- gold rim -->
+  <circle cx="60" cy="60" r="49.5" fill="none" stroke="#F2B705" stroke-width="3"/>
+  <!-- the bandage: "I got vaccinated" (Bakunado, Protektado!) -->
+  <g transform="rotate(-35 60 60)">
+    <rect x="25" y="46" width="70" height="28" rx="14" fill="#F7D6A6"/>
+    <rect x="47" y="46" width="26" height="28" fill="#E8B577"/>
+    <circle cx="53" cy="54" r="2.4" fill="#C08647"/>
+    <circle cx="67" cy="54" r="2.4" fill="#C08647"/>
+    <circle cx="53" cy="66" r="2.4" fill="#C08647"/>
+    <circle cx="67" cy="66" r="2.4" fill="#C08647"/>
+    <circle cx="33" cy="60" r="1.6" fill="#D9A867"/>
+    <circle cx="87" cy="60" r="1.6" fill="#D9A867"/>
+  </g>
+  <!-- sparkles: protected and happy -->
+  <path d="M41 25L43.6 32.4L51 35L43.6 37.6L41 45L38.4 37.6L31 35L38.4 32.4Z" fill="#F2B705"/>
+  <path d="M80 77L81.8 82.2L87 84L81.8 85.8L80 91L78.2 85.8L73 84L78.2 82.2Z" fill="#FFFFFF"/>
 </svg>
