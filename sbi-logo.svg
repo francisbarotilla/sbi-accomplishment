@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="SBI Bakuna Eskwela emblem">
+  <title>SBI · Bakuna Eskwela</title>
+  <defs>
+    <linearGradient id="sbiShield" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#17867D"/>
+      <stop offset="1" stop-color="#0B4A55"/>
+    </linearGradient>
+  </defs>
+  <!-- shield: protection -->
+  <path d="M60 5C77 13 93 15 106 15V55C106 84 86 104 60 115C34 104 14 84 14 55V15C27 15 43 13 60 5Z" fill="url(#sbiShield)"/>
+  <!-- gold inner rim: official accent -->
+  <path d="M60 13.5C75 20.5 89 22.5 98.5 22.5V55.5C98.5 79.5 82 96.5 60 106C38 96.5 21.5 79.5 21.5 55.5V22.5C31 22.5 45 20.5 60 13.5Z" fill="none" stroke="#F2B705" stroke-width="2.6"/>
+  <!-- schoolhouse: school-based -->
+  <path d="M33 59L60 36.5L87 59" fill="none" stroke="#fff" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="40" y="55" width="40" height="31" rx="3.5" fill="#fff"/>
+  <!-- heart door: care / health -->
+  <path d="M60 82.5C49.5 75.5 50 64.5 56.2 65.2C58.2 65.4 59.4 66.8 60 68.3C60.6 66.8 61.8 65.4 63.8 65.2C70 64.5 70.5 75.5 60 82.5Z" fill="#E4574F"/>
+  <!-- sparkle: friendly campaign feel -->
+  <path d="M86.5 27.5L88.6 33.4L94.5 35.5L88.6 37.6L86.5 43.5L84.4 37.6L78.5 35.5L84.4 33.4Z" fill="#F2B705"/>
+</svg>
