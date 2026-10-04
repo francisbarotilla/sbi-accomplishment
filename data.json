@@ -1,5 +1,5 @@
 {
- "generated": "October 4, 2026 10:18 AM",
+ "generated": "October 4, 2026 10:28 AM",
  "today": "2026-10-04",
  "kpi": {
   "mr_pct": 0.0,
@@ -24,7 +24,7 @@
    "id": 1,
    "no": 1,
    "name": "Adtuyon ES",
-   "barangay": "",
+   "barangay": "Adtuyon",
    "status": "done",
    "dates": [
     "2026-09-28",
@@ -48,14 +48,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.81513,
+   "lon": 124.855706
   },
   {
    "id": 2,
    "no": 2,
    "name": "Jarque ES",
-   "barangay": "",
+   "barangay": "Adtuyon",
    "status": "upcoming",
    "dates": [
     "2026-10-12",
@@ -79,14 +79,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.777158,
+   "lon": 124.863306
   },
   {
    "id": 3,
    "no": 3,
    "name": "San Isidro ES",
-   "barangay": "",
+   "barangay": "Adtuyon",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -110,14 +110,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.785618,
+   "lon": 124.831021
   },
   {
    "id": 4,
    "no": 4,
    "name": "Barandias IS",
-   "barangay": "",
+   "barangay": "Barandias",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -141,14 +141,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.823716,
+   "lon": 124.784347
   },
   {
    "id": 5,
    "no": 5,
    "name": "Concepcion ES",
-   "barangay": "",
+   "barangay": "Concepcion",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -172,14 +172,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.864554,
+   "lon": 124.827627
   },
   {
    "id": 6,
    "no": 6,
    "name": "Kidanggin ES",
-   "barangay": "",
+   "barangay": "Gandingan",
    "status": "ongoing",
    "dates": [
     "2026-10-01",
@@ -203,14 +203,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.764037,
+   "lon": 124.807677
   },
   {
    "id": 7,
    "no": 7,
    "name": "San Miguel ES",
-   "barangay": "",
+   "barangay": "Gandingan",
    "status": "done",
    "dates": [
     "2026-09-28",
@@ -234,14 +234,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.755067,
+   "lon": 124.84605
   },
   {
    "id": 8,
    "no": 8,
    "name": "San Vicente ES",
-   "barangay": "",
+   "barangay": "Lantay",
    "status": "ongoing",
    "dates": [
     "2026-10-02",
@@ -265,14 +265,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.79293,
+   "lon": 124.810846
   },
   {
    "id": 9,
    "no": 9,
    "name": "Lantay ES",
-   "barangay": "",
+   "barangay": "Lantay",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -296,14 +296,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.826551,
+   "lon": 124.803688
   },
   {
    "id": 10,
    "no": 10,
    "name": "Mendiz ES",
-   "barangay": "",
+   "barangay": "Mendis",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -327,14 +327,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.870925,
+   "lon": 124.811651
   },
   {
    "id": 11,
    "no": 11,
    "name": "New Eden ES",
-   "barangay": "",
+   "barangay": "New Eden",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -358,14 +358,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.879573,
+   "lon": 124.837303
   },
   {
    "id": 12,
    "no": 12,
    "name": "Pangantucan CES",
-   "barangay": "",
+   "barangay": "Poblacion",
    "status": "done",
    "dates": [
     "2026-09-28",
@@ -391,14 +391,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.828764,
+   "lon": 124.830859
   },
   {
    "id": 13,
    "no": 13,
    "name": "Pangantucan NHS",
-   "barangay": "",
+   "barangay": "Poblacion",
    "status": "upcoming",
    "dates": [
     "2026-10-05",
@@ -424,14 +424,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.835911,
+   "lon": 124.833759
   },
   {
    "id": 14,
    "no": 14,
    "name": "Portulin ES",
-   "barangay": "",
+   "barangay": "Portulin",
    "status": "done",
    "dates": [
     "2026-10-01"
@@ -454,14 +454,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.903146,
+   "lon": 124.865492
   },
   {
    "id": 15,
    "no": 15,
    "name": "Sinasaan ES",
-   "barangay": "",
+   "barangay": "Portulin",
    "status": "done",
    "dates": [
     "2026-10-02"
@@ -484,14 +484,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.863772,
+   "lon": 124.866471
   },
   {
    "id": 16,
    "no": 16,
    "name": "Balogo ES",
-   "barangay": "",
+   "barangay": "Langcataon",
    "status": "done",
    "dates": [
     "2026-09-28"
@@ -514,14 +514,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.609234,
+   "lon": 124.863412
   },
   {
    "id": 17,
    "no": 17,
    "name": "Langcataon CES",
-   "barangay": "",
+   "barangay": "Langcataon",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -545,14 +545,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.637753,
+   "lon": 124.854361
   },
   {
    "id": 18,
    "no": 18,
    "name": "Langcataon NHS",
-   "barangay": "",
+   "barangay": "Langcataon",
    "status": "upcoming",
    "dates": [
     "2026-10-06",
@@ -576,14 +576,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.633384,
+   "lon": 124.853436
   },
   {
    "id": 19,
    "no": 19,
    "name": "Bangahan IS",
-   "barangay": "",
+   "barangay": "Bangahan",
    "status": "done",
    "dates": [
     "2026-09-28",
@@ -608,14 +608,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.648653,
+   "lon": 124.822807
   },
   {
    "id": 20,
    "no": 20,
    "name": "Upper Rancho ES (under Bangahan IS)",
-   "barangay": "",
+   "barangay": "Bangahan",
    "status": "upcoming",
    "dates": [
     "2026-10-12",
@@ -639,14 +639,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.674525,
+   "lon": 124.805439
   },
   {
    "id": 21,
    "no": 21,
    "name": "Kimanait ES",
-   "barangay": "",
+   "barangay": "Kimanait",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -670,14 +670,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.575983,
+   "lon": 124.841147
   },
   {
    "id": 22,
    "no": 22,
    "name": "Kimanait NHS",
-   "barangay": "",
+   "barangay": "Kimanait",
    "status": "upcoming",
    "dates": [
     "2026-10-06",
@@ -701,14 +701,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.573731,
+   "lon": 124.842863
   },
   {
    "id": 23,
    "no": 23,
    "name": "Pangadian Té Apu Mansadék",
-   "barangay": "",
+   "barangay": "Kimanait",
    "status": "upcoming",
    "dates": [
     "2026-10-08"
@@ -731,14 +731,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.587751,
+   "lon": 124.825328
   },
   {
    "id": 24,
    "no": 24,
    "name": "Kipaducan ES",
-   "barangay": "",
+   "barangay": "Kipaducan",
    "status": "upcoming",
    "dates": [
     "2026-10-08"
@@ -761,14 +761,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.656496,
+   "lon": 124.836827
   },
   {
    "id": 25,
    "no": 25,
    "name": "New Ilo-ilo ES",
-   "barangay": "",
+   "barangay": "Kipaducan",
    "status": "upcoming",
    "dates": [
     "2026-10-09"
@@ -791,14 +791,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.710462,
+   "lon": 124.81804
   },
   {
    "id": 26,
    "no": 26,
    "name": "Malipayon ES",
-   "barangay": "",
+   "barangay": "Malipayon",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -822,14 +822,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.61675,
+   "lon": 124.839019
   },
   {
    "id": 27,
    "no": 27,
    "name": "Payad ES",
-   "barangay": "",
+   "barangay": "Payad",
    "status": "done",
    "dates": [
     "2026-09-28",
@@ -853,14 +853,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.564372,
+   "lon": 124.854276
   },
   {
    "id": 28,
    "no": 28,
    "name": "Bacusanon CES",
-   "barangay": "",
+   "barangay": "Bacusanon",
    "status": "done",
    "dates": [
     "2026-09-28",
@@ -884,14 +884,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.880394,
+   "lon": 124.717242
   },
   {
    "id": 29,
    "no": 29,
    "name": "Bacusanon NHS",
-   "barangay": "",
+   "barangay": "Bacusanon",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -915,14 +915,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.878605,
+   "lon": 124.718642
   },
   {
    "id": 30,
    "no": 30,
    "name": "Quarry ES",
-   "barangay": "",
+   "barangay": "Bacusanon",
    "status": "done",
    "dates": [
     "2026-09-30",
@@ -946,14 +946,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.892004,
+   "lon": 124.705281
   },
   {
    "id": 31,
    "no": 31,
    "name": "San Guinto IS",
-   "barangay": "",
+   "barangay": "Bacusanon",
    "status": "done",
    "dates": [
     "2026-09-30",
@@ -977,14 +977,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.909468,
+   "lon": 124.729474
   },
   {
    "id": 32,
    "no": 32,
    "name": "Balmar ES",
-   "barangay": "",
+   "barangay": "Nabaliwa",
    "status": "done",
    "dates": [
     "2026-10-01"
@@ -1007,14 +1007,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.898775,
+   "lon": 124.741619
   },
   {
    "id": 33,
    "no": 33,
    "name": "Nabaliwa ES",
-   "barangay": "",
+   "barangay": "Nabaliwa",
    "status": "ongoing",
    "dates": [
     "2026-10-02",
@@ -1038,14 +1038,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.870952,
+   "lon": 124.747116
   },
   {
    "id": 34,
    "no": 34,
    "name": "Iliyan Te Apu Méndépéten",
-   "barangay": "",
+   "barangay": "Pigtauranan",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -1069,14 +1069,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.898333,
+   "lon": 124.762942
   },
   {
    "id": 35,
    "no": 35,
    "name": "Pigtauranan ES",
-   "barangay": "",
+   "barangay": "Pigtauranan",
    "status": "upcoming",
    "dates": [
     "2026-10-05",
@@ -1101,14 +1101,14 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": false,
-   "lat": null,
-   "lon": null
+   "lat": 7.873679,
+   "lon": 124.775204
   },
   {
    "id": 36,
    "no": 36,
    "name": "Madaya ES",
-   "barangay": "",
+   "barangay": "Madaya",
    "status": "done",
    "dates": [
     "2026-10-01",
@@ -1132,8 +1132,8 @@
    "td_pct": 0.0,
    "hpv_pct": 0.0,
    "needs_mopup": true,
-   "lat": null,
-   "lon": null
+   "lat": 7.839363,
+   "lon": 124.76016
   }
  ],
  "daily": [],
