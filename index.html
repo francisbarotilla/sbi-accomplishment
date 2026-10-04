@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SBI Accomplishment · Pangantucan</title>
+<meta name="description" content="School-Based Immunization (Bakuna Eskwela) 2026 accomplishment of the Municipality of Pangantucan, Bukidnon: coverage by school, schedules, and campaign materials.">
+<meta property="og:title" content="SBI ACCOMPLISHMENT · Pangantucan">
+<meta property="og:description" content="Bakuna Eskwela 2026 - MR, Td and HPV vaccination accomplishment by school.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230e6377'/><path d='M9 23l10-10m-2-2l4 4m-9 3l3 3' stroke='white' stroke-width='2.5' stroke-linecap='round'/></svg>">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f4f6f3; --surface: #ffffff; --surface-2: #eef1ed; --ink: #0b0b0b; --ink-2: #4a4945; --muted: #7d7b75;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --brand: #0e6377; --brand-dk: #0a4c5c; --green: #4f9e6b; --accent: #b3305e;
+  --mr: #2a78d6; --mr-lt: #b7d3f6; --td: #eb6834; --hpv: #1baf7a; --hpv-lt: #a9e3cd; --s4: #4a3aa7; --s5: #e87ba4;
+  --good: #0ca30c; --warn: #fab219; --crit: #d03b3b; --good-ink: #006300;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #242422; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #8f8d86;
+    --grid: #2c2c2a; --axis: #3d3d3a; --border: rgba(255,255,255,0.10); --brand: #0f7287; --brand-dk: #0a4c5c;
+    --mr: #3987e5; --mr-lt: #1c3f6b; --td: #d95926; --hpv: #199e70; --hpv-lt: #134d39; --s4: #9085e9; --s5: #d55181; --good-ink: #0ca30c;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --surface-2: #242422; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #8f8d86;
+  --grid: #2c2c2a; --axis: #3d3d3a; --border: rgba(255,255,255,0.10); --brand: #0f7287; --brand-dk: #0a4c5c;
+  --mr: #3987e5; --mr-lt: #1c3f6b; --td: #d95926; --hpv: #199e70; --hpv-lt: #134d39; --s4: #9085e9; --s5: #d55181; --good-ink: #0ca30c;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 60px; }
+body { margin: 0; background: var(--page); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--brand); }
+.hero { background: radial-gradient(120% 140% at 85% -20%, #2f8f86 0%, var(--brand) 45%, var(--brand-dk) 100%); color: #fff; }
+.hero .wrap { padding: 28px 16px 22px; }
+.hero .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; opacity: .85; margin: 0; }
+.hero h1 { font-size: clamp(30px, 6vw, 52px); line-height: 1.05; margin: 6px 0 8px; letter-spacing: .01em; font-weight: 800; }
+.hero p { margin: 0; opacity: .92; }
+.hero .asof { display: inline-block; margin-top: 12px; font-size: 13px; background: rgba(255,255,255,.14); padding: 4px 10px; border-radius: 999px; }
+.band { height: 6px; background: linear-gradient(90deg, var(--green), var(--green) 70%, var(--accent) 70%); }
+nav.sticky { position: sticky; top: 0; z-index: 50; background: var(--surface); border-bottom: 1px solid var(--border); }
+nav.sticky .wrap { display: flex; gap: 2px; overflow-x: auto; padding: 0 16px; }
+nav.sticky a { padding: 12px 12px; text-decoration: none; color: var(--ink-2); white-space: nowrap; font-size: 14px; border-bottom: 2px solid transparent; }
+nav.sticky a:hover { color: var(--ink); border-bottom-color: var(--brand); }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+section { padding: 22px 0 6px; }
+h2 { font-size: 21px; margin: 0 0 4px; }
+.lead { color: var(--ink-2); font-size: 14px; margin: 0 0 14px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+.grid { display: grid; gap: 16px; }
+.g2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; }
+.kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+.kpi .lab { font-size: 13px; color: var(--ink-2); display: flex; gap: 6px; align-items: center; }
+.kpi .val { font-size: 34px; font-weight: 750; line-height: 1.15; margin: 4px 0 2px; }
+.kpi .det { font-size: 12.5px; color: var(--muted); }
+.kpi.hero-kpi { background: var(--brand); color: #fff; border: 0; }
+.kpi.hero-kpi .lab, .kpi.hero-kpi .det { color: rgba(255,255,255,.85); }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; flex: none; }
+.meter { position: relative; height: 8px; background: var(--surface-2); border-radius: 4px; margin-top: 10px; }
+.meter > span { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
+.meter > i { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--ink-2); }
+.hero-kpi .meter { background: rgba(255,255,255,.22); } .hero-kpi .meter > span { background: #fff; } .hero-kpi .meter > i { background: #fff; }
+.toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+.toolbar .grow { flex: 1; min-width: 180px; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button { border: 0; background: var(--surface); color: var(--ink); padding: 6px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+.seg button.on { background: var(--brand); color: #fff; }
+.chart { position: relative; height: 320px; }
+select, input[type=search] { font: inherit; font-size: 14px; padding: 6px 9px; border: 1px solid var(--axis); border-radius: 8px; background: var(--surface); color: var(--ink); }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { padding: 7px 8px; border-bottom: 1px solid var(--grid); text-align: left; vertical-align: middle; }
+th { color: var(--ink-2); font-weight: 600; background: var(--surface-2); position: sticky; top: 0; cursor: pointer; user-select: none; white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+.scroll { overflow: auto; max-height: 620px; border-radius: 8px; }
+#tSchools { min-width: 760px; }
+.chip { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); white-space: nowrap; }
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.chip.good::before { background: var(--good); } .chip.warn::before { background: var(--warn); } .chip.crit::before { background: var(--crit); } .chip.info::before { background: var(--mr); }
+.pbar { display: flex; align-items: center; gap: 8px; min-width: 130px; }
+.pbar .t { flex: 1; height: 7px; background: var(--surface-2); border-radius: 4px; position: relative; overflow: hidden; }
+.pbar .t span { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
+.pbar b { font-weight: 600; font-size: 12.5px; min-width: 44px; text-align: right; font-variant-numeric: tabular-nums; }
+button.link { background: none; border: 0; padding: 0; color: var(--brand); font: inherit; cursor: pointer; text-align: left; text-decoration: underline; text-underline-offset: 2px; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--ink-2); margin-top: 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+/* schedule grid */
+.sched { overflow-x: auto; }
+.sched table { width: auto; min-width: 100%; font-size: 12.5px; }
+.sched th, .sched td { padding: 4px 3px; text-align: center; border-bottom: 1px solid var(--grid); }
+.sched th { position: static; cursor: default; font-weight: 600; }
+.sched td.sn, .sched th.sn { position: sticky; left: 0; background: var(--surface); text-align: left; padding-right: 10px; white-space: nowrap; z-index: 1; min-width: 190px; }
+.sched th.we, .sched td.we { background: var(--surface-2); }
+.sched th.today { background: var(--brand); color: #fff; border-radius: 6px 6px 0 0; }
+.sched td.today { box-shadow: inset 2px 0 0 var(--brand), inset -2px 0 0 var(--brand); }
+.dot { display: inline-block; width: 18px; height: 18px; border-radius: 5px; vertical-align: middle; }
+.dot.done { background: var(--good); } .dot.up { background: var(--surface); border: 2px solid var(--muted); } .dot.now { background: var(--mr); }
+.todaybox { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); margin-bottom: 14px; }
+.todaybox .card { margin: 0; }
+.todaybox ul { margin: 6px 0 0; padding-left: 18px; }
+/* gallery */
+.gal { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 12px; }
+.gal figure { margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.gal img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; cursor: zoom-in; background: var(--surface-2); }
+.gal figcaption { padding: 7px 9px; font-size: 12.5px; }
+.gal figcaption small { color: var(--muted); display: block; }
+.empty { padding: 26px; text-align: center; color: var(--muted); background: var(--surface-2); border-radius: 10px; font-size: 14px; }
+.lb { position: fixed; inset: 0; background: rgba(0,0,0,.9); display: none; align-items: center; justify-content: center; flex-direction: column; z-index: 100; cursor: zoom-out; padding: 16px; }
+.lb img { max-width: 100%; max-height: 86vh; border-radius: 6px; }
+.lb p { color: #fff; margin: 10px 0 0; font-size: 14px; text-align: center; }
+.msgs { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.msgs .card { margin: 0; border-top: 4px solid var(--green); }
+.msgs h3 { margin: 0 0 6px; font-size: 16px; }
+.msgs p { margin: 0; font-size: 14px; color: var(--ink-2); }
+dialog { border: 1px solid var(--border); border-radius: 14px; padding: 0; width: min(640px, calc(100vw - 24px)); background: var(--surface); color: var(--ink); }
+dialog::backdrop { background: rgba(0,0,0,.5); }
+dialog .hd { background: var(--brand); color: #fff; padding: 14px 18px; display: flex; align-items: start; gap: 10px; }
+dialog .hd h3 { margin: 0; font-size: 19px; flex: 1; } dialog .hd button { background: none; border: 0; color: #fff; font-size: 24px; cursor: pointer; line-height: 1; }
+dialog .bd { padding: 16px 18px; max-height: 75vh; overflow: auto; }
+dialog .row { display: grid; grid-template-columns: 120px 1fr; gap: 8px; align-items: center; margin: 8px 0; font-size: 14px; }
+footer { color: var(--muted); font-size: 12.5px; padding: 18px 0 40px; }
+@media (max-width: 640px) { .kpi .val { font-size: 28px; } .chart.tall { height: 1000px !important; } dialog .row { grid-template-columns: 96px 1fr; } }
+@media print { nav.sticky, .seg, .toolbar select, .toolbar input { display: none !important; } }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Bakuna Eskwela 2026 · School-Based Immunization</p>
+    <h1>SBI ACCOMPLISHMENT</h1>
+    <p>Municipality of Pangantucan, Bukidnon · Pangantucan Primary Care Facility / Rural Health Unit</p>
+    <span class="asof">Updated October 4, 2026 9:18 AM</span>
+  </div>
+</header>
+<div class="band"></div>
+<nav class="sticky"><div class="wrap">
+  <a href="#overview">Overview</a><a href="#by-school">Accomplishment by school</a><a href="#students">Students vs vaccinated</a>
+  <a href="#schedule">Schedule</a><a href="#gallery">IEC &amp; activities</a><a href="#parents">Para sa magulang</a>
+</div></nav>
+
+<main class="wrap">
+<section id="overview">
+  <h2>Overview</h2>
+  <p class="lead">Measles-Rubella (MR) and Tetanus-Diphtheria (Td) for Grades 1 and 7 (target 95%) · HPV for Grade 4–5 girls (target 90%) · 36 schools</p>
+  <div class="card" style="border-left:4px solid var(--warn)"><b>Accomplishment data is being encoded.</b> Vaccination sessions started September 28, 2026; results from the recording forms will appear here as they are encoded at the RHU. The schedule below is up to date.</div>
+  <div class="kpis" id="kpis"></div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card"><h3 style="margin:0 0 2px">Doses given, day by day</h3><p class="lead" style="margin-bottom:8px">Running total since the first vaccination day</p>
+      <div class="chart"><canvas id="cDaily" aria-label="Cumulative doses by day"></canvas></div>
+      <div class="legend"><span><i class="sw" style="background:var(--mr)"></i>MR</span><span><i class="sw" style="background:var(--td)"></i>Td</span><span><i class="sw" style="background:var(--hpv)"></i>HPV</span></div>
+    </div>
+    <div class="card"><h3 style="margin:0 0 2px">Why some learners were not vaccinated</h3><p class="lead" style="margin-bottom:8px">Whole municipality, from the reason codes on the recording forms</p>
+      <div class="chart" id="reasonsBox"><canvas id="cReasons" aria-label="Reasons for not vaccinating"></canvas></div>
+      <div class="legend" id="deferLegend"></div>
+    </div>
+  </div>
+</section>
+
+<section id="by-school">
+  <h2>Accomplishment by school</h2>
+  <p class="lead">Percent of eligible learners vaccinated. Dashed line = target. Tap a school name for its details.</p>
+  <div class="card">
+    <div class="toolbar"><div class="grow"></div>
+      <div class="seg" id="segPct"><button data-ag="mr" class="on">MR</button><button data-ag="td">Td</button><button data-ag="hpv">HPV</button></div>
+    </div>
+    <div class="chart tall" id="pctBox"><canvas id="cPct" aria-label="Accomplishment percent by school"></canvas></div>
+    <div class="legend"><span><i class="sw" style="background:var(--good)"></i>Reached target</span><span><i class="sw" style="background:var(--warn)"></i>Within 15 points</span><span><i class="sw" style="background:var(--crit)"></i>Below</span><span><i class="sw" style="background:var(--axis)"></i>Not yet visited</span></div>
+  </div>
+  <div class="card">
+    <div class="toolbar"><h3 class="grow" style="margin:0">All schools</h3>
+      <select id="fStat"><option value="">All statuses</option><option value="done">Done</option><option value="ongoing">Ongoing</option><option value="upcoming">Upcoming</option></select>
+      <input type="search" id="fQ" placeholder="Search school…"></div>
+    <div class="scroll"><table id="tSchools">
+      <thead><tr><th data-k="no" class="n">#</th><th data-k="name">School</th><th data-k="status">Status</th><th data-k="elig_total" class="n">Students eligible</th><th data-k="vaxed" class="n">Vaccinated</th><th data-k="mr_pct">MR</th><th data-k="td_pct">Td</th><th data-k="hpv_pct">HPV</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="students">
+  <h2>Number of students vs number vaccinated</h2>
+  <p class="lead">Light bar = eligible students in the school; dark bar = students vaccinated.</p>
+  <div class="card">
+    <div class="toolbar"><div class="grow"></div>
+      <div class="seg" id="segCnt"><button data-g="mr" class="on">Grades 1 &amp; 7 (MR)</button><button data-g="td">Grades 1 &amp; 7 (Td)</button><button data-g="hpv">Gr 4–5 girls (HPV)</button></div>
+    </div>
+    <div class="chart tall" id="cntBox"><canvas id="cCnt" aria-label="Eligible vs vaccinated per school"></canvas></div>
+    <div class="legend" id="cntLegend"></div>
+  </div>
+</section>
+
+<section id="schedule">
+  <h2>Vaccination schedule per school</h2>
+  <p class="lead">Each square is a scheduled vaccination day.</p>
+  <div class="todaybox" id="todayBox"></div>
+  <div class="card sched" id="schedGrid"></div>
+  <div class="legend"><span><i class="dot done"></i>Done</span><span><i class="dot now"></i>Today</span><span><i class="dot up"></i>Upcoming</span></div>
+</section>
+
+<section id="gallery">
+  <h2>IEC materials &amp; activities</h2>
+  <p class="lead">Campaign materials from the Department of Health and photos from the vaccination sessions.</p>
+  <div class="toolbar"><div class="seg" id="segGal"><button data-k="iec" class="on">IEC materials</button><button data-k="photo">Activity photos</button></div>
+    <select id="fGalSchool"><option value="">All schools</option></select></div>
+  <div class="gal" id="gal"></div>
+</section>
+
+<section id="parents">
+  <h2>Para sa mga magulang</h2>
+  <p class="lead">Bakuna Eskwela key messages</p>
+  <div class="msgs">
+    <div class="card"><h3>Ligtas at epektibo</h3><p>Vaccines given in schools were rigorously studied and found safe and effective by experts.</p></div>
+    <div class="card"><h3>Delikado ang mga sakit na ito</h3><p>Measles, rubella, tetanus, diphtheria and HPV can cause serious complications, cervical cancer or even death.</p></div>
+    <div class="card"><h3>Libre sa paaralan</h3><p>Vaccines are FREE in public schools during the campaign. Please sign the consent form so your child can be vaccinated.</p></div>
+    <div class="card"><h3>May tanong?</h3><p>Ask your child's teacher or visit your Barangay Health Station or the Pangantucan Rural Health Unit.</p></div>
+  </div>
+</section>
+
+<footer>
+  Source: Pangantucan RHU, from SBI Recording Forms 1–3 (DOH Annexes B–D). Percentages use eligible learners from the 2026 SBI microplan.
+  This page shows totals only — no names or personal information of learners are published (Data Privacy Act of 2012).
+</footer>
+</main>
+
+<dialog id="dlg"><div class="hd"><h3 id="dlgT"></h3><button onclick="dlg.close()" aria-label="Close">×</button></div><div class="bd" id="dlgB"></div></dialog>
+<div class="lb" id="lb" onclick="this.style.display='none'"><img alt=""><p></p></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const P = {"daily": [], "defer_refuse": [{"deferred": 0, "grade": "Grade 1", "refused": 0}, {"deferred": 0, "grade": "Gr 4-5 Female", "refused": 0}, {"deferred": 0, "grade": "Grade 7", "refused": 0}], "generated": "October 4, 2026 9:18 AM", "kpi": {"done": 24, "elig_hpv": 1240, "elig_mrtd": 2326, "elig_total": 3566, "hpv": 0, "hpv_pct": 0.0, "mopup": 24, "mr": 0, "mr_pct": 0.0, "ongoing": 3, "schools": 36, "td": 0, "td_pct": 0.0, "upcoming": 9, "vaxed": 0, "vaxed_pct": 0.0}, "media": [{"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_21_76.jpg", "thumb": "img/20261004_doh_21_76_t.jpg", "title": "Saan pwede kumuha ng HPV vaccine?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_21_51.jpg", "thumb": "img/20261004_doh_21_51_t.jpg", "title": "Bakit kailangan ng HPV vaccine?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_21_26.jpg", "thumb": "img/20261004_doh_21_26_t.jpg", "title": "Ano ang HPV?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_21_1.jpg", "thumb": "img/20261004_doh_21_1_t.jpg", "title": "Paano labanan ang HPV?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_20_67.jpg", "thumb": "img/20261004_doh_20_67_t.jpg", "title": "Poster - Magpabakuna laban sa cervical cancer"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_20_40.jpg", "thumb": "img/20261004_doh_20_40_t.jpg", "title": "Standee - Magpabakuna laban sa cervical cancer"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_20_6.jpg", "thumb": "img/20261004_doh_20_6_t.jpg", "title": "HPV stickers - At your cervix"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_19_80.jpg", "thumb": "img/20261004_doh_19_80_t.jpg", "title": "Bakuna Eskwela poster - Ano nga ba ang Bakuna Eskwela?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_19_59.jpg", "thumb": "img/20261004_doh_19_59_t.jpg", "title": "Ano ang HPV vaccine?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_19_37.jpg", "thumb": "img/20261004_doh_19_37_t.jpg", "title": "Ano ang HPV?"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_19_3.jpg", "thumb": "img/20261004_doh_19_3_t.jpg", "title": "Bakuna Eskwela - Libre sa mga pampublikong paaralan ngayong October"}, {"date": "", "kind": "iec", "school": "", "school_id": null, "src": "img/20261004_doh_0_0.jpg", "thumb": "img/20261004_doh_0_0_t.jpg", "title": "Bakuna Eskwela - Libreng bakuna, iwas-pag-aalala"}], "reasons": [], "schools": [{"barangay": "", "dates": ["2026-09-28", "2026-09-29"], "elig_g1": 53, "elig_g4f": 22, "elig_g5f": 29, "elig_g7": 0, "elig_hpv": 51, "elig_mrtd": 53, "elig_total": 104, "hpv_any": 0, "hpv_pct": 0.0, "id": 1, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Adtuyon ES", "needs_mopup": true, "next_date": null, "no": 1, "schedule": "September 28-29, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-12", "2026-10-13"], "elig_g1": 15, "elig_g4f": 8, "elig_g5f": 8, "elig_g7": 0, "elig_hpv": 16, "elig_mrtd": 15, "elig_total": 31, "hpv_any": 0, "hpv_pct": 0.0, "id": 2, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Jarque ES", "needs_mopup": false, "next_date": "2026-10-12", "no": 2, "schedule": "October 12-13, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 16, "elig_g4f": 12, "elig_g5f": 10, "elig_g7": 17, "elig_hpv": 22, "elig_mrtd": 33, "elig_total": 55, "hpv_any": 0, "hpv_pct": 0.0, "id": 3, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "San Isidro ES", "needs_mopup": true, "next_date": null, "no": 3, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 90, "elig_g4f": 35, "elig_g5f": 35, "elig_g7": 21, "elig_hpv": 70, "elig_mrtd": 111, "elig_total": 181, "hpv_any": 0, "hpv_pct": 0.0, "id": 4, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Barandias IS", "needs_mopup": true, "next_date": null, "no": 4, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 19, "elig_g4f": 8, "elig_g5f": 2, "elig_g7": 0, "elig_hpv": 10, "elig_mrtd": 19, "elig_total": 29, "hpv_any": 0, "hpv_pct": 0.0, "id": 5, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Concepcion ES", "needs_mopup": true, "next_date": null, "no": 5, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-12"], "elig_g1": 10, "elig_g4f": 3, "elig_g5f": 4, "elig_g7": 0, "elig_hpv": 7, "elig_mrtd": 10, "elig_total": 17, "hpv_any": 0, "hpv_pct": 0.0, "id": 6, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Kidanggin ES", "needs_mopup": false, "next_date": "2026-10-12", "no": 6, "schedule": "October 1\u002612, 2026", "status": "ongoing", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-28", "2026-09-29"], "elig_g1": 15, "elig_g4f": 8, "elig_g5f": 10, "elig_g7": 0, "elig_hpv": 18, "elig_mrtd": 15, "elig_total": 33, "hpv_any": 0, "hpv_pct": 0.0, "id": 7, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "San Miguel ES", "needs_mopup": true, "next_date": null, "no": 7, "schedule": "September 28-29, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-02", "2026-10-13"], "elig_g1": 8, "elig_g4f": 1, "elig_g5f": 5, "elig_g7": 0, "elig_hpv": 6, "elig_mrtd": 8, "elig_total": 14, "hpv_any": 0, "hpv_pct": 0.0, "id": 8, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "San Vicente ES", "needs_mopup": false, "next_date": "2026-10-13", "no": 8, "schedule": "October 2\u002613, 2026", "status": "ongoing", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 53, "elig_g4f": 27, "elig_g5f": 35, "elig_g7": 0, "elig_hpv": 62, "elig_mrtd": 53, "elig_total": 115, "hpv_any": 0, "hpv_pct": 0.0, "id": 9, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Lantay ES", "needs_mopup": true, "next_date": null, "no": 9, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 42, "elig_g4f": 13, "elig_g5f": 21, "elig_g7": 30, "elig_hpv": 34, "elig_mrtd": 72, "elig_total": 106, "hpv_any": 0, "hpv_pct": 0.0, "id": 10, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Mendiz ES", "needs_mopup": true, "next_date": null, "no": 10, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 22, "elig_g4f": 10, "elig_g5f": 13, "elig_g7": 16, "elig_hpv": 23, "elig_mrtd": 38, "elig_total": 61, "hpv_any": 0, "hpv_pct": 0.0, "id": 11, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "New Eden ES", "needs_mopup": true, "next_date": null, "no": 11, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-28", "2026-09-29", "2026-10-01", "2026-10-02"], "elig_g1": 267, "elig_g4f": 151, "elig_g5f": 119, "elig_g7": 0, "elig_hpv": 270, "elig_mrtd": 267, "elig_total": 537, "hpv_any": 0, "hpv_pct": 0.0, "id": 12, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Pangantucan CES", "needs_mopup": true, "next_date": null, "no": 12, "schedule": "September 28-29, 2026 October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-05", "2026-10-06", "2026-10-08", "2026-10-09"], "elig_g1": 0, "elig_g4f": 0, "elig_g5f": 0, "elig_g7": 456, "elig_hpv": 0, "elig_mrtd": 456, "elig_total": 456, "hpv_any": 0, "hpv_pct": 0.0, "id": 13, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Pangantucan NHS", "needs_mopup": false, "next_date": "2026-10-05", "no": 13, "schedule": "October 5-6, 2026. October 8-9, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01"], "elig_g1": 21, "elig_g4f": 5, "elig_g5f": 13, "elig_g7": 0, "elig_hpv": 18, "elig_mrtd": 21, "elig_total": 39, "hpv_any": 0, "hpv_pct": 0.0, "id": 14, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Portulin ES", "needs_mopup": true, "next_date": null, "no": 14, "schedule": "October 01, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-02"], "elig_g1": 15, "elig_g4f": 8, "elig_g5f": 7, "elig_g7": 0, "elig_hpv": 15, "elig_mrtd": 15, "elig_total": 30, "hpv_any": 0, "hpv_pct": 0.0, "id": 15, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Sinasaan ES", "needs_mopup": true, "next_date": null, "no": 15, "schedule": "October 02, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-28"], "elig_g1": 23, "elig_g4f": 9, "elig_g5f": 8, "elig_g7": 0, "elig_hpv": 17, "elig_mrtd": 23, "elig_total": 40, "hpv_any": 0, "hpv_pct": 0.0, "id": 16, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Balogo ES", "needs_mopup": true, "next_date": null, "no": 16, "schedule": "September 28, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 40, "elig_g4f": 16, "elig_g5f": 31, "elig_g7": 0, "elig_hpv": 47, "elig_mrtd": 40, "elig_total": 87, "hpv_any": 0, "hpv_pct": 0.0, "id": 17, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Langcataon CES", "needs_mopup": true, "next_date": null, "no": 17, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-06", "2026-10-07"], "elig_g1": 0, "elig_g4f": 0, "elig_g5f": 0, "elig_g7": 88, "elig_hpv": 0, "elig_mrtd": 88, "elig_total": 88, "hpv_any": 0, "hpv_pct": 0.0, "id": 18, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Langcataon NHS", "needs_mopup": false, "next_date": "2026-10-06", "no": 18, "schedule": "October 6-7,2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-28", "2026-09-29", "2026-10-01"], "elig_g1": 50, "elig_g4f": 31, "elig_g5f": 20, "elig_g7": 60, "elig_hpv": 51, "elig_mrtd": 110, "elig_total": 161, "hpv_any": 0, "hpv_pct": 0.0, "id": 19, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Bangahan IS", "needs_mopup": true, "next_date": null, "no": 19, "schedule": "September 28-29, 2026 October 1, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-12", "2026-10-13"], "elig_g1": 13, "elig_g4f": 9, "elig_g5f": 9, "elig_g7": 0, "elig_hpv": 18, "elig_mrtd": 13, "elig_total": 31, "hpv_any": 0, "hpv_pct": 0.0, "id": 20, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Upper Rancho ES (under Bangahan IS)", "needs_mopup": false, "next_date": "2026-10-12", "no": 20, "schedule": "October 12-13, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 66, "elig_g4f": 36, "elig_g5f": 39, "elig_g7": 0, "elig_hpv": 75, "elig_mrtd": 66, "elig_total": 141, "hpv_any": 0, "hpv_pct": 0.0, "id": 21, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Kimanait ES", "needs_mopup": true, "next_date": null, "no": 21, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-06", "2026-10-07"], "elig_g1": 0, "elig_g4f": 0, "elig_g5f": 0, "elig_g7": 86, "elig_hpv": 0, "elig_mrtd": 86, "elig_total": 86, "hpv_any": 0, "hpv_pct": 0.0, "id": 22, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Kimanait NHS", "needs_mopup": false, "next_date": "2026-10-06", "no": 22, "schedule": "October 6-7,2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-08"], "elig_g1": 8, "elig_g4f": 5, "elig_g5f": 5, "elig_g7": 0, "elig_hpv": 10, "elig_mrtd": 8, "elig_total": 18, "hpv_any": 0, "hpv_pct": 0.0, "id": 23, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Pangadian T\u00e9 Apu Mansad\u00e9k", "needs_mopup": false, "next_date": "2026-10-08", "no": 23, "schedule": "October 8, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-08"], "elig_g1": 22, "elig_g4f": 15, "elig_g5f": 16, "elig_g7": 0, "elig_hpv": 31, "elig_mrtd": 22, "elig_total": 53, "hpv_any": 0, "hpv_pct": 0.0, "id": 24, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Kipaducan ES", "needs_mopup": false, "next_date": "2026-10-08", "no": 24, "schedule": "October 08, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-09"], "elig_g1": 9, "elig_g4f": 1, "elig_g5f": 2, "elig_g7": 0, "elig_hpv": 3, "elig_mrtd": 9, "elig_total": 12, "hpv_any": 0, "hpv_pct": 0.0, "id": 25, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "New Ilo-ilo ES", "needs_mopup": false, "next_date": "2026-10-09", "no": 25, "schedule": "October 09, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 74, "elig_g4f": 29, "elig_g5f": 24, "elig_g7": 0, "elig_hpv": 53, "elig_mrtd": 74, "elig_total": 127, "hpv_any": 0, "hpv_pct": 0.0, "id": 26, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Malipayon ES", "needs_mopup": true, "next_date": null, "no": 26, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-28", "2026-09-29"], "elig_g1": 19, "elig_g4f": 4, "elig_g5f": 8, "elig_g7": 0, "elig_hpv": 12, "elig_mrtd": 19, "elig_total": 31, "hpv_any": 0, "hpv_pct": 0.0, "id": 27, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Payad ES", "needs_mopup": true, "next_date": null, "no": 27, "schedule": "September 28-29, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-28", "2026-09-29"], "elig_g1": 97, "elig_g4f": 38, "elig_g5f": 46, "elig_g7": 0, "elig_hpv": 84, "elig_mrtd": 97, "elig_total": 181, "hpv_any": 0, "hpv_pct": 0.0, "id": 28, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Bacusanon CES", "needs_mopup": true, "next_date": null, "no": 28, "schedule": "September 28-29, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 0, "elig_g4f": 0, "elig_g5f": 0, "elig_g7": 195, "elig_hpv": 0, "elig_mrtd": 195, "elig_total": 195, "hpv_any": 0, "hpv_pct": 0.0, "id": 29, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Bacusanon NHS", "needs_mopup": true, "next_date": null, "no": 29, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-30", "2026-10-01"], "elig_g1": 22, "elig_g4f": 14, "elig_g5f": 11, "elig_g7": 0, "elig_hpv": 25, "elig_mrtd": 22, "elig_total": 47, "hpv_any": 0, "hpv_pct": 0.0, "id": 30, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Quarry ES", "needs_mopup": true, "next_date": null, "no": 30, "schedule": "September 30, 2026 \u0026 October 1, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-09-30", "2026-10-01"], "elig_g1": 29, "elig_g4f": 8, "elig_g5f": 19, "elig_g7": 29, "elig_hpv": 27, "elig_mrtd": 58, "elig_total": 85, "hpv_any": 0, "hpv_pct": 0.0, "id": 31, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "San Guinto IS", "needs_mopup": true, "next_date": null, "no": 31, "schedule": "September 30, 2026 \u0026 October 1, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01"], "elig_g1": 13, "elig_g4f": 5, "elig_g5f": 10, "elig_g7": 0, "elig_hpv": 15, "elig_mrtd": 13, "elig_total": 28, "hpv_any": 0, "hpv_pct": 0.0, "id": 32, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Balmar ES", "needs_mopup": true, "next_date": null, "no": 32, "schedule": "October 01, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-02", "2026-10-06"], "elig_g1": 30, "elig_g4f": 21, "elig_g5f": 16, "elig_g7": 0, "elig_hpv": 37, "elig_mrtd": 30, "elig_total": 67, "hpv_any": 0, "hpv_pct": 0.0, "id": 33, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Nabaliwa ES", "needs_mopup": false, "next_date": "2026-10-06", "no": 33, "schedule": "October 2\u00266, 2026", "status": "ongoing", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 10, "elig_g4f": 3, "elig_g5f": 2, "elig_g7": 0, "elig_hpv": 5, "elig_mrtd": 10, "elig_total": 15, "hpv_any": 0, "hpv_pct": 0.0, "id": 34, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Iliyan Te Apu M\u00e9nd\u00e9p\u00e9ten", "needs_mopup": true, "next_date": null, "no": 34, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-05", "2026-10-06", "2026-10-07"], "elig_g1": 81, "elig_g4f": 38, "elig_g5f": 28, "elig_g7": 51, "elig_hpv": 66, "elig_mrtd": 132, "elig_total": 198, "hpv_any": 0, "hpv_pct": 0.0, "id": 35, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Pigtauranan ES", "needs_mopup": false, "next_date": "2026-10-05", "no": 35, "schedule": "October 5-7, 2026", "status": "upcoming", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}, {"barangay": "", "dates": ["2026-10-01", "2026-10-02"], "elig_g1": 25, "elig_g4f": 22, "elig_g5f": 20, "elig_g7": 0, "elig_hpv": 42, "elig_mrtd": 25, "elig_total": 67, "hpv_any": 0, "hpv_pct": 0.0, "id": 36, "lat": null, "lon": null, "mr": 0, "mr_pct": 0.0, "name": "Madaya ES", "needs_mopup": true, "next_date": null, "no": 36, "schedule": "October 1-2, 2026", "status": "done", "td": 0, "td_pct": 0.0, "today": false, "vaxed": 0}], "targets": {"hpv": 90, "mrtd": 95}, "today": "2026-10-04"};
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => location.reload());
+const T = {mr: P.targets.mrtd, td: P.targets.mrtd, hpv: P.targets.hpv};
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const col = {}; ['ink','ink-2','muted','grid','axis','surface','mr','mr-lt','td','hpv','hpv-lt','s4','s5','good','warn','crit'].forEach(k => col[k] = css('--' + k));
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => Number(n).toLocaleString('en-PH');
+const fmtDate = d => new Date(d + 'T00:00').toLocaleDateString('en-PH', {month: 'short', day: 'numeric'});
+const S = P.schools, K = P.kpi;
+const visited = s => s.status === 'done' || s.status === 'ongoing' || s.vaxed > 0;
+const level = (p, t) => p >= t ? 'good' : p >= t - 15 ? 'warn' : 'crit';
+const statusChip = s => ({done: '<span class="chip good">Done</span>', ongoing: '<span class="chip info">Ongoing</span>', upcoming: '<span class="chip">Upcoming</span>'}[s] || '<span class="chip">No date</span>');
+
+// ---- KPIs
+const kpi = (label, val, det, color, pctv, tgt, hero) => `<div class="kpi${hero ? ' hero-kpi' : ''}"><div class="lab">${color ? `<i class="sw" style="background:var(${color})"></i>` : ''}${label}</div>
+  <div class="val">${val}</div><div class="det">${det}</div>${pctv != null ? `<div class="meter"><span style="width:${Math.min(pctv, 100)}%;${hero ? '' : `background:var(${color})`}"></span>${tgt ? `<i style="left:${tgt}%"></i>` : ''}</div>` : ''}</div>`;
+document.getElementById('kpis').innerHTML =
+  kpi('Students vaccinated', fmt(K.vaxed), `of ${fmt(K.elig_total)} eligible students · ${K.vaxed_pct}%`, null, K.vaxed_pct, null, true) +
+  kpi('MR accomplishment', K.mr_pct + '%', `${fmt(K.mr)} of ${fmt(K.elig_mrtd)} Grade 1 & 7 · target ${T.mr}%`, '--mr', K.mr_pct, T.mr) +
+  kpi('Td accomplishment', K.td_pct + '%', `${fmt(K.td)} of ${fmt(K.elig_mrtd)} Grade 1 & 7 · target ${T.td}%`, '--td', K.td_pct, T.td) +
+  kpi('HPV accomplishment', K.hpv_pct + '%', `${fmt(K.hpv)} of ${fmt(K.elig_hpv)} Grade 4–5 girls · target ${T.hpv}%`, '--hpv', K.hpv_pct, T.hpv) +
+  kpi('Schools completed', `${K.done} / ${K.schools}`, `${K.ongoing} ongoing · ${K.upcoming} upcoming`, null);
+
+// ---- charts
+const hasChart = !!window.Chart;
+if (hasChart) {
+  Chart.defaults.font.family = 'system-ui, -apple-system, "Segoe UI", sans-serif';
+  Chart.defaults.color = col['ink-2'];
+  Chart.defaults.plugins.legend.display = false;
+  Object.assign(Chart.defaults.plugins.tooltip, {backgroundColor: col.surface, titleColor: col.ink, bodyColor: col.ink, borderColor: col.axis, borderWidth: 1, padding: 9});
+}
+const ax = {grid: {color: col.grid}, border: {color: col.axis}, ticks: {color: col.muted}};
+const yNames = {...ax, grid: {display: false}, ticks: {color: col['ink-2'], autoSkip: false, font: {size: 11.5}}};
+const targetLine = {id: 'targetLine', afterDatasetsDraw(ch, _a, o) {
+  if (o.value == null) return; const x = ch.scales.x.getPixelForValue(o.value), {top, bottom} = ch.chartArea, c = ch.ctx;
+  c.save(); c.strokeStyle = col['ink-2']; c.setLineDash([5, 4]); c.lineWidth = 1.5; c.beginPath(); c.moveTo(x, top); c.lineTo(x, bottom); c.stroke();
+  c.fillStyle = col['ink-2']; c.font = '12px system-ui'; c.textAlign = 'right'; c.fillText('Target ' + o.value + '%', x - 4, bottom - 6); c.restore(); }};
+const sizeBox = (id, n) => document.getElementById(id).style.height = Math.max(240, 60 + n * 22) + 'px';
+const openByLabel = (rows) => (evt, els) => { if (els.length) openSchool(rows[els[0].index].id); };
+
+let cPct, cCnt;
+function drawPct(ag) {
+  const elig = ag === 'hpv' ? 'elig_hpv' : 'elig_mrtd', cnt = ag === 'hpv' ? 'hpv_any' : ag;
+  const rows = S.filter(s => s[elig] > 0).sort((a, b) => (visited(b) - visited(a)) || (b[ag + '_pct'] - a[ag + '_pct']));
+  sizeBox('pctBox', rows.length);
+  const data = {labels: rows.map(r => r.name), datasets: [{data: rows.map(r => visited(r) ? r[ag + '_pct'] : 0.6),
+    backgroundColor: rows.map(r => visited(r) ? col[level(r[ag + '_pct'], T[ag])] : col.axis), borderRadius: 4, borderSkipped: 'start', barThickness: 13}]};
+  const options = {indexAxis: 'y', maintainAspectRatio: false, animation: false, onClick: openByLabel(rows),
+    scales: {x: {...ax, min: 0, max: 100, position: 'top', ticks: {...ax.ticks, callback: v => v + '%'}}, y: yNames},
+    plugins: {targetLine: {value: T[ag]}, tooltip: {callbacks: {label: c => { const r = rows[c.dataIndex];
+      return visited(r) ? ` ${r[ag + '_pct']}% — ${r[cnt]} of ${r[elig]} vaccinated` : ` Not yet visited — schedule: ${r.schedule || 'TBA'}`; }}}}};
+  if (cPct) { cPct.data = data; cPct.options = options; cPct.update(); } else cPct = new Chart(document.getElementById('cPct'), {type: 'bar', data, options, plugins: [targetLine]});
+}
+function drawCnt(g) {
+  const elig = g === 'hpv' ? 'elig_hpv' : 'elig_mrtd', cnt = g === 'hpv' ? 'hpv_any' : g;
+  const dark = g === 'hpv' ? col.hpv : g === 'td' ? col.td : col.mr, light = g === 'hpv' ? col['hpv-lt'] : g === 'td' ? 'color-mix(in srgb, ' + col.td + ' 30%, ' + col.surface + ')' : col['mr-lt'];
+  const rows = S.filter(s => s[elig] > 0).sort((a, b) => b[elig] - a[elig]);
+  sizeBox('cntBox', rows.length);
+  const lightResolved = light.startsWith('color-mix') ? (() => { const d = document.createElement('i'); d.style.color = light; document.body.appendChild(d); const v = getComputedStyle(d).color; d.remove(); return v; })() : light;
+  const data = {labels: rows.map(r => r.name), datasets: [
+    {label: 'Vaccinated', data: rows.map(r => r[cnt]), backgroundColor: dark, borderRadius: 4, borderSkipped: 'start', barThickness: 9, grouped: false, order: 0},
+    {label: 'Eligible', data: rows.map(r => r[elig]), backgroundColor: lightResolved, borderRadius: 4, borderSkipped: 'start', barThickness: 15, grouped: false, order: 1}]};
+  const options = {indexAxis: 'y', maintainAspectRatio: false, animation: false, onClick: openByLabel(rows), interaction: {mode: 'index', axis: 'y', intersect: false},
+    scales: {x: {...ax, position: 'top', beginAtZero: true, ticks: {...ax.ticks, precision: 0}}, y: yNames},
+    plugins: {tooltip: {callbacks: {label: c => ` ${c.dataset.label}: ${fmt(c.parsed.x)}`, afterBody: c => { const r = rows[c[0].dataIndex]; return r[elig] ? `${(100 * r[cnt] / r[elig]).toFixed(1)}% accomplished` : ''; }}}}};
+  document.getElementById('cntLegend').innerHTML = `<span><i class="sw" style="background:${lightResolved}"></i>Eligible students</span><span><i class="sw" style="background:${dark}"></i>Vaccinated</span>`;
+  if (cCnt) { cCnt.data = data; cCnt.options = options; cCnt.update(); } else cCnt = new Chart(document.getElementById('cCnt'), {type: 'bar', data, options});
+}
+if (hasChart) {
+  drawPct('mr'); drawCnt('mr');
+  const seg = (id, fn, key) => document.querySelectorAll(`#${id} button`).forEach(b => b.onclick = () => {
+    document.querySelectorAll(`#${id} button`).forEach(x => x.classList.toggle('on', x === b)); fn(b.dataset[key]); });
+  seg('segPct', drawPct, 'ag'); seg('segCnt', drawCnt, 'g');
+
+  const d = P.daily;
+  if (d.length) new Chart(document.getElementById('cDaily'), {type: 'line',
+    data: {labels: d.map(x => fmtDate(x.date)), datasets: ['MR', 'Td', 'HPV'].map(a => ({label: a, data: d.map(x => x['cum_' + a]),
+      borderColor: col[a.toLowerCase()], backgroundColor: col[a.toLowerCase()], borderWidth: 2, pointRadius: 3, pointHoverRadius: 6, tension: .15}))},
+    options: {maintainAspectRatio: false, animation: false, interaction: {mode: 'index', intersect: false}, scales: {x: ax, y: {...ax, beginAtZero: true}},
+      plugins: {tooltip: {callbacks: {label: c => ` ${c.dataset.label}: ${fmt(c.parsed.y)} total (+${d[c.dataIndex][c.dataset.label]} that day)`}}}}});
+  else document.getElementById('cDaily').parentElement.innerHTML = '<div class="empty">No vaccinations recorded yet.</div>';
+
+  const R = P.reasons.slice(0, 8);
+  if (R.length) { document.getElementById('reasonsBox').style.height = (70 + R.length * 30) + 'px';
+    new Chart(document.getElementById('cReasons'), {type: 'bar',
+      data: {labels: R.map(r => r.label.length > 38 ? r.label.slice(0, 36) + '…' : r.label), datasets: [{data: R.map(r => r.count), backgroundColor: col.s4, borderRadius: 4, borderSkipped: 'start', barThickness: 14}]},
+      options: {indexAxis: 'y', maintainAspectRatio: false, animation: false, scales: {x: {...ax, beginAtZero: true, ticks: {...ax.ticks, precision: 0}}, y: yNames},
+        plugins: {tooltip: {callbacks: {title: c => R[c[0].dataIndex].label, label: c => ` ${c.parsed.x} learners`}}}}});
+    const dr = P.defer_refuse;
+    document.getElementById('deferLegend').innerHTML = dr.map(x => `<span>${esc(x.grade)}: <b>${x.deferred}</b> deferred · <b>${x.refused}</b> refused</span>`).join('');
+  } else document.getElementById('reasonsBox').innerHTML = '<div class="empty">No deferrals or refusals recorded yet.</div>';
+} else {
+  document.querySelectorAll('.chart').forEach(e => e.innerHTML = '<div class="empty">Charts need an internet connection to load.</div>');
+}
+
+// ---- school table
+const pbar = (p, t, elig, vis) => !elig ? '<span style="color:var(--muted)">—</span>' : !vis ? '<span class="chip">Not yet</span>' :
+  `<div class="pbar"><div class="t"><span style="width:${Math.min(p, 100)}%;background:var(--${level(p, t) === 'good' ? 'good' : level(p, t) === 'warn' ? 'warn' : 'crit'})"></span></div><b>${p}%</b></div>`;
+let sortK = 'no', sortAsc = true;
+function renderTable() {
+  const q = document.getElementById('fQ').value.toLowerCase(), st = document.getElementById('fStat').value;
+  const rows = S.filter(s => (!st || s.status === st) && (!q || s.name.toLowerCase().includes(q)))
+    .sort((a, b) => { const x = a[sortK], y = b[sortK]; const c = typeof x === 'string' ? x.localeCompare(y) : x - y; return sortAsc ? c : -c; });
+  document.querySelector('#tSchools tbody').innerHTML = rows.map(s => `<tr>
+    <td class="n">${s.no}</td><td><button class="link" onclick="openSchool(${s.id})">${esc(s.name)}</button><br><small style="color:var(--muted)">${esc(s.schedule || '')}</small></td>
+    <td>${statusChip(s.status)}</td><td class="n">${fmt(s.elig_total)}</td><td class="n">${fmt(s.vaxed)}</td>
+    <td>${pbar(s.mr_pct, T.mr, s.elig_mrtd, visited(s))}</td><td>${pbar(s.td_pct, T.td, s.elig_mrtd, visited(s))}</td><td>${pbar(s.hpv_pct, T.hpv, s.elig_hpv, visited(s))}</td></tr>`).join('');
+}
+document.querySelectorAll('#tSchools th').forEach(th => th.onclick = () => { const k = th.dataset.k; sortAsc = sortK === k ? !sortAsc : true; sortK = k; renderTable(); });
+['fQ', 'fStat'].forEach(id => document.getElementById(id).addEventListener('input', renderTable));
+renderTable();
+
+// ---- schedule grid
+(function () {
+  const all = [...new Set(S.flatMap(s => s.dates))].sort();
+  const box = document.getElementById('schedGrid');
+  if (!all.length) { box.innerHTML = '<div class="empty">No schedules yet.</div>'; return; }
+  const days = []; for (let d = new Date(all[0] + 'T00:00'); d <= new Date(all.at(-1) + 'T00:00'); d.setDate(d.getDate() + 1)) days.push(d.toLocaleDateString('en-CA'));
+  const rows = [...S].filter(s => s.dates.length).sort((a, b) => a.dates[0].localeCompare(b.dates[0]) || a.name.localeCompare(b.name));
+  const dow = d => new Date(d + 'T00:00').getDay();
+  let h = '<table><thead><tr><th class="sn">School</th>' + days.map(d => `<th class="${dow(d) % 6 === 0 ? 'we' : ''} ${d === P.today ? 'today' : ''}">${new Date(d + 'T00:00').toLocaleDateString('en-PH', {weekday: 'narrow'})}<br>${fmtDate(d).replace(' ', '<br>')}</th>`).join('') + '<th class="sn" style="position:static">Status</th></tr></thead><tbody>';
+  rows.forEach(s => { h += `<tr><td class="sn"><button class="link" onclick="openSchool(${s.id})">${esc(s.name)}</button></td>` + days.map(d => {
+      const on = s.dates.includes(d), cls = d < P.today ? 'done' : d === P.today ? 'now' : 'up';
+      return `<td class="${dow(d) % 6 === 0 ? 'we' : ''} ${d === P.today ? 'today' : ''}">${on ? `<i class="dot ${cls}" title="${esc(s.name)} · ${fmtDate(d)}"></i>` : ''}</td>`; }).join('') + `<td style="text-align:left">${statusChip(s.status)}</td></tr>`; });
+  box.innerHTML = h + '</tbody></table>';
+  const todayS = S.filter(s => s.today), next = S.filter(s => !s.today && s.next_date).sort((a, b) => a.next_date.localeCompare(b.next_date));
+  const nextDay = next.length ? next[0].next_date : null, nextS = next.filter(s => s.next_date === nextDay);
+  const unsched = S.filter(s => !s.dates.length);
+  document.getElementById('todayBox').innerHTML =
+    `<div class="card"><b>Today (${fmtDate(P.today)})</b>${todayS.length ? '<ul>' + todayS.map(s => `<li>${esc(s.name)}</li>`).join('') + '</ul>' : '<p style="margin:6px 0 0;color:var(--muted)">No school scheduled today.</p>'}</div>` +
+    `<div class="card"><b>Next vaccination day${nextDay ? ' (' + fmtDate(nextDay) + ')' : ''}</b>${nextS.length ? '<ul>' + nextS.map(s => `<li>${esc(s.name)}</li>`).join('') + '</ul>' : '<p style="margin:6px 0 0;color:var(--muted)">All scheduled sessions are done.</p>'}</div>` +
+    (unsched.length ? `<div class="card"><b>Schedule to follow</b><ul>${unsched.map(s => `<li>${esc(s.name)}</li>`).join('')}</ul></div>` : '');
+})();
+
+// ---- gallery
+let galKind = 'iec';
+const gSel = document.getElementById('fGalSchool');
+[...new Set(P.media.filter(m => m.school).map(m => m.school))].sort().forEach(n => gSel.add(new Option(n, n)));
+function renderGal() {
+  const items = P.media.filter(m => m.kind === galKind && (!gSel.value || m.school === gSel.value));
+  gSel.style.display = galKind === 'photo' ? '' : 'none';
+  document.getElementById('gal').innerHTML = items.length ? items.map(m => `<figure><img loading="lazy" src="${esc(m.thumb)}" data-full="${esc(m.src)}" alt="${esc(m.title)}">
+    <figcaption>${esc(m.title)}${m.school || m.date ? `<small>${esc(m.school)} ${m.date ? fmtDate(m.date) : ''}</small>` : ''}</figcaption></figure>`).join('')
+    : `<div class="empty" style="grid-column:1/-1">${galKind === 'iec' ? 'IEC materials will be posted here soon.' : 'Activity photos will be posted here soon.'}</div>`;
+}
+document.querySelectorAll('#segGal button').forEach(b => b.onclick = () => { document.querySelectorAll('#segGal button').forEach(x => x.classList.toggle('on', x === b)); galKind = b.dataset.k; renderGal(); });
+gSel.onchange = renderGal; renderGal();
+document.addEventListener('click', e => { const img = e.target.closest('.gal img'); if (!img) return;
+  if (dlg.open) dlg.close();
+  const lb = document.getElementById('lb'); lb.querySelector('img').src = img.dataset.full; lb.querySelector('p').textContent = img.alt; lb.style.display = 'flex'; });
+
+// ---- school detail dialog
+const dlg = document.getElementById('dlg');
+function openSchool(id) {
+  const s = S.find(x => x.id === id); if (!s) return;
+  const line = (lab, n, e, t, c) => e ? `<div class="row"><span>${lab}</span><div><div class="pbar"><div class="t"><span style="width:${Math.min(e ? 100 * n / e : 0, 100)}%;background:var(${c})"></span></div><b>${e ? (100 * n / e).toFixed(1) : 0}%</b></div><small style="color:var(--muted)">${fmt(n)} of ${fmt(e)} vaccinated · target ${t}%</small></div></div>` : '';
+  const photos = P.media.filter(m => m.school_id === id);
+  document.getElementById('dlgT').innerHTML = esc(s.name) + `<br><small style="font-weight:400;font-size:13px;opacity:.9">${s.barangay ? 'Brgy. ' + esc(s.barangay) + ' · ' : ''}${s.status === 'done' ? 'Vaccination done' : s.status === 'ongoing' ? 'Vaccination ongoing' : 'Upcoming'}</small>`;
+  document.getElementById('dlgB').innerHTML =
+    `<div class="row"><span>Schedule</span><div>${s.dates.length ? s.dates.map(fmtDate).join(', ') : 'To follow'}</div></div>
+     <div class="row"><span>Eligible</span><div>${[['Grade 1', s.elig_g1], ['Grade 7', s.elig_g7], ['Gr 4 girls', s.elig_g4f], ['Gr 5 girls', s.elig_g5f]].filter(x => x[1]).map(x => `${x[0]}: <b>${x[1]}</b>`).join(' · ')}</div></div>
+     <div class="row"><span>Vaccinated</span><div><b>${fmt(s.vaxed)}</b> of ${fmt(s.elig_total)} students</div></div>` +
+    line('MR', s.mr, s.elig_mrtd, T.mr, '--mr') + line('Td', s.td, s.elig_mrtd, T.td, '--td') + line('HPV', s.hpv_any, s.elig_hpv, T.hpv, '--hpv') +
+    (photos.length ? `<h4 style="margin:14px 0 8px">Photos</h4><div class="gal">${photos.map(m => `<figure><img loading="lazy" src="${esc(m.thumb)}" data-full="${esc(m.src)}" alt="${esc(m.title)}"><figcaption>${esc(m.title)}</figcaption></figure>`).join('')}</div>` : '');
+  dlg.showModal();
+}
+dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+</script>
+</body>
+</html>
