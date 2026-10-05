@@ -1,6 +1,6 @@
 {
- "generated": "October 4, 2026 4:53 PM",
- "today": "2026-10-04",
+ "generated": "October 5, 2026 8:03 AM",
+ "today": "2026-10-05",
  "kpi": {
   "mr_pct": 0.0,
   "td_pct": 0.0,
@@ -15,8 +15,8 @@
   "vaxed_pct": 0.0,
   "schools": 36,
   "done": 24,
-  "ongoing": 3,
-  "upcoming": 9,
+  "ongoing": 5,
+  "upcoming": 7,
   "mopup": 0
  },
  "schools": [
@@ -399,7 +399,7 @@
    "no": 13,
    "name": "Pangantucan NHS",
    "barangay": "Poblacion",
-   "status": "upcoming",
+   "status": "ongoing",
    "dates": [
     "2026-10-05",
     "2026-10-06",
@@ -407,7 +407,7 @@
     "2026-10-09"
    ],
    "schedule": "October 5-6, 2026. October 8-9, 2026",
-   "today": false,
+   "today": true,
    "next_date": "2026-10-05",
    "elig_g1": 0,
    "elig_g7": 456,
@@ -1077,14 +1077,14 @@
    "no": 35,
    "name": "Pigtauranan ES",
    "barangay": "Pigtauranan",
-   "status": "upcoming",
+   "status": "ongoing",
    "dates": [
     "2026-10-05",
     "2026-10-06",
     "2026-10-07"
    ],
    "schedule": "October 5-7, 2026",
-   "today": false,
+   "today": true,
    "next_date": "2026-10-05",
    "elig_g1": 81,
    "elig_g7": 51,
