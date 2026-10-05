@@ -1,6 +1,6 @@
 {
- "generated": "October 5, 2026 11:58 PM",
- "today": "2026-10-05",
+ "generated": "October 6, 2026 12:28 AM",
+ "today": "2026-10-06",
  "kpi": {
   "mr_pct": 0.0,
   "td_pct": 0.0,
@@ -15,8 +15,8 @@
   "vaxed_pct": 0.0,
   "schools": 36,
   "done": 24,
-  "ongoing": 5,
-  "upcoming": 7,
+  "ongoing": 7,
+  "upcoming": 5,
   "mopup": 0
  },
  "schools": [
@@ -408,7 +408,7 @@
    ],
    "schedule": "October 5-6, 2026. October 8-9, 2026",
    "today": true,
-   "next_date": "2026-10-05",
+   "next_date": "2026-10-06",
    "elig_g1": 0,
    "elig_g7": 456,
    "elig_g4f": 0,
@@ -553,13 +553,13 @@
    "no": 18,
    "name": "Langcataon NHS",
    "barangay": "Langcataon",
-   "status": "upcoming",
+   "status": "ongoing",
    "dates": [
     "2026-10-06",
     "2026-10-07"
    ],
    "schedule": "October 6-7,2026",
-   "today": false,
+   "today": true,
    "next_date": "2026-10-06",
    "elig_g1": 0,
    "elig_g7": 88,
@@ -678,13 +678,13 @@
    "no": 22,
    "name": "Kimanait NHS",
    "barangay": "Kimanait",
-   "status": "upcoming",
+   "status": "ongoing",
    "dates": [
     "2026-10-06",
     "2026-10-07"
    ],
    "schedule": "October 6-7,2026",
-   "today": false,
+   "today": true,
    "next_date": "2026-10-06",
    "elig_g1": 0,
    "elig_g7": 86,
@@ -1021,7 +1021,7 @@
     "2026-10-06"
    ],
    "schedule": "October 2&6, 2026",
-   "today": false,
+   "today": true,
    "next_date": "2026-10-06",
    "elig_g1": 30,
    "elig_g7": 0,
@@ -1085,7 +1085,7 @@
    ],
    "schedule": "October 5-7, 2026",
    "today": true,
-   "next_date": "2026-10-05",
+   "next_date": "2026-10-06",
    "elig_g1": 81,
    "elig_g7": 51,
    "elig_g4f": 38,
