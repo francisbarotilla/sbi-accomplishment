@@ -1,5 +1,5 @@
 {
- "generated": "October 5, 2026 8:49 AM",
+ "generated": "October 5, 2026 8:58 AM",
  "today": "2026-10-05",
  "kpi": {
   "mr_pct": 0.0,
@@ -17,7 +17,7 @@
   "done": 24,
   "ongoing": 5,
   "upcoming": 7,
-  "mopup": 24
+  "mopup": 0
  },
  "schools": [
   {
@@ -47,7 +47,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.81513,
    "lon": 124.855706
   },
@@ -109,7 +109,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.785618,
    "lon": 124.831021
   },
@@ -140,7 +140,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.823716,
    "lon": 124.784347
   },
@@ -171,7 +171,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.864554,
    "lon": 124.827627
   },
@@ -233,7 +233,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.755067,
    "lon": 124.84605
   },
@@ -295,7 +295,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.826551,
    "lon": 124.803688
   },
@@ -326,7 +326,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.870925,
    "lon": 124.811651
   },
@@ -357,7 +357,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.879573,
    "lon": 124.837303
   },
@@ -390,7 +390,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.828764,
    "lon": 124.830859
   },
@@ -453,7 +453,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.903146,
    "lon": 124.865492
   },
@@ -483,7 +483,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.863772,
    "lon": 124.866471
   },
@@ -513,7 +513,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.609234,
    "lon": 124.863412
   },
@@ -544,7 +544,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.637753,
    "lon": 124.854361
   },
@@ -607,7 +607,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.648653,
    "lon": 124.822807
   },
@@ -669,7 +669,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.575983,
    "lon": 124.841147
   },
@@ -821,7 +821,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.61675,
    "lon": 124.839019
   },
@@ -852,7 +852,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.564372,
    "lon": 124.854276
   },
@@ -883,7 +883,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.880394,
    "lon": 124.717242
   },
@@ -914,7 +914,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.878605,
    "lon": 124.718642
   },
@@ -945,7 +945,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.892004,
    "lon": 124.705281
   },
@@ -976,7 +976,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.909468,
    "lon": 124.729474
   },
@@ -1006,7 +1006,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.898775,
    "lon": 124.741619
   },
@@ -1068,7 +1068,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.898333,
    "lon": 124.762942
   },
@@ -1131,7 +1131,7 @@
    "mr_pct": 0.0,
    "td_pct": 0.0,
    "hpv_pct": 0.0,
-   "needs_mopup": true,
+   "needs_mopup": false,
    "lat": 7.839363,
    "lon": 124.76016
   }
