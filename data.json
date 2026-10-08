@@ -1,6 +1,6 @@
 {
- "generated": "October 8, 2026 10:58 PM",
- "today": "2026-10-08",
+ "generated": "October 9, 2026 7:18 AM",
+ "today": "2026-10-09",
  "kpi": {
   "mr_pct": 0.0,
   "td_pct": 0.0,
@@ -14,9 +14,9 @@
   "elig_total": 3566,
   "vaxed_pct": 0.0,
   "schools": 36,
-  "done": 28,
-  "ongoing": 5,
-  "upcoming": 3,
+  "done": 30,
+  "ongoing": 4,
+  "upcoming": 2,
   "mopup": 0
  },
  "schools": [
@@ -408,7 +408,7 @@
    ],
    "schedule": "October 5-6, 2026. October 8-9, 2026",
    "today": true,
-   "next_date": "2026-10-08",
+   "next_date": "2026-10-09",
    "elig_g1": 0,
    "elig_g7": 456,
    "elig_g4f": 0,
@@ -709,13 +709,13 @@
    "no": 23,
    "name": "Pangadian Té Apu Mansadék",
    "barangay": "Kimanait",
-   "status": "ongoing",
+   "status": "done",
    "dates": [
     "2026-10-08"
    ],
    "schedule": "October 8, 2026",
-   "today": true,
-   "next_date": "2026-10-08",
+   "today": false,
+   "next_date": null,
    "elig_g1": 8,
    "elig_g7": 0,
    "elig_g4f": 5,
@@ -739,13 +739,13 @@
    "no": 24,
    "name": "Kipaducan ES",
    "barangay": "Kipaducan",
-   "status": "ongoing",
+   "status": "done",
    "dates": [
     "2026-10-08"
    ],
    "schedule": "October 08, 2026",
-   "today": true,
-   "next_date": "2026-10-08",
+   "today": false,
+   "next_date": null,
    "elig_g1": 22,
    "elig_g7": 0,
    "elig_g4f": 15,
@@ -769,12 +769,12 @@
    "no": 25,
    "name": "New Ilo-ilo ES",
    "barangay": "Kipaducan",
-   "status": "upcoming",
+   "status": "ongoing",
    "dates": [
     "2026-10-09"
    ],
    "schedule": "October 09, 2026",
-   "today": false,
+   "today": true,
    "next_date": "2026-10-09",
    "elig_g1": 9,
    "elig_g7": 0,
