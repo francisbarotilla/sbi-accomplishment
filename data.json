@@ -1,5 +1,7 @@
 {
- "generated": "October 10, 2026 6:28 PM",
+ "first_date": "October 12, 2026",
+ "started": false,
+ "generated": "October 10, 2026 6:49 PM",
  "today": "2026-10-10",
  "kpi": {
   "mr_pct": 0.0,
@@ -14,9 +16,9 @@
   "elig_total": 3566,
   "vaxed_pct": 0.0,
   "schools": 36,
-  "done": 32,
-  "ongoing": 2,
-  "upcoming": 2,
+  "done": 0,
+  "ongoing": 0,
+  "upcoming": 36,
   "mopup": 0
  },
  "schools": [
@@ -25,14 +27,13 @@
    "no": 1,
    "name": "Adtuyon ES",
    "barangay": "Adtuyon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28",
-    "2026-09-29"
+    "2026-10-15"
    ],
-   "schedule": "September 28-29, 2026",
+   "schedule": "October 15, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-15",
    "elig_g1": 53,
    "elig_g7": 0,
    "elig_g4f": 22,
@@ -58,12 +59,11 @@
    "barangay": "Adtuyon",
    "status": "upcoming",
    "dates": [
-    "2026-10-12",
-    "2026-10-13"
+    "2026-10-19"
    ],
-   "schedule": "October 12-13, 2026",
+   "schedule": "October 19, 2026",
    "today": false,
-   "next_date": "2026-10-12",
+   "next_date": "2026-10-19",
    "elig_g1": 15,
    "elig_g7": 0,
    "elig_g4f": 8,
@@ -87,14 +87,13 @@
    "no": 3,
    "name": "San Isidro ES",
    "barangay": "Adtuyon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-14"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 14, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-14",
    "elig_g1": 16,
    "elig_g7": 17,
    "elig_g4f": 12,
@@ -118,14 +117,13 @@
    "no": 4,
    "name": "Barandias IS",
    "barangay": "Barandias",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-15"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 15, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-15",
    "elig_g1": 90,
    "elig_g7": 21,
    "elig_g4f": 35,
@@ -149,14 +147,13 @@
    "no": 5,
    "name": "Concepcion ES",
    "barangay": "Concepcion",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-13"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 19,
    "elig_g7": 0,
    "elig_g4f": 8,
@@ -180,14 +177,13 @@
    "no": 6,
    "name": "Kidanggin ES",
    "barangay": "Gandingan",
-   "status": "ongoing",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-12"
+    "2026-10-15"
    ],
-   "schedule": "October 1&12, 2026",
+   "schedule": "October 15, 2026",
    "today": false,
-   "next_date": "2026-10-12",
+   "next_date": "2026-10-15",
    "elig_g1": 10,
    "elig_g7": 0,
    "elig_g4f": 3,
@@ -211,14 +207,13 @@
    "no": 7,
    "name": "San Miguel ES",
    "barangay": "Gandingan",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28",
-    "2026-09-29"
+    "2026-10-13"
    ],
-   "schedule": "September 28-29, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 15,
    "elig_g7": 0,
    "elig_g4f": 8,
@@ -242,14 +237,13 @@
    "no": 8,
    "name": "San Vicente ES",
    "barangay": "Lantay",
-   "status": "ongoing",
+   "status": "upcoming",
    "dates": [
-    "2026-10-02",
-    "2026-10-13"
+    "2026-10-14"
    ],
-   "schedule": "October 2&13, 2026",
+   "schedule": "October 14, 2026",
    "today": false,
-   "next_date": "2026-10-13",
+   "next_date": "2026-10-14",
    "elig_g1": 8,
    "elig_g7": 0,
    "elig_g4f": 1,
@@ -273,14 +267,13 @@
    "no": 9,
    "name": "Lantay ES",
    "barangay": "Lantay",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-12"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 53,
    "elig_g7": 0,
    "elig_g4f": 27,
@@ -304,14 +297,13 @@
    "no": 10,
    "name": "Mendiz ES",
    "barangay": "Mendis",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-12"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 42,
    "elig_g7": 30,
    "elig_g4f": 13,
@@ -335,14 +327,13 @@
    "no": 11,
    "name": "New Eden ES",
    "barangay": "New Eden",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-12"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 22,
    "elig_g7": 16,
    "elig_g4f": 10,
@@ -366,16 +357,17 @@
    "no": 12,
    "name": "Pangantucan CES",
    "barangay": "Poblacion",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28",
-    "2026-09-29",
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-13",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-26",
+    "2026-10-27"
    ],
-   "schedule": "September 28-29, 2026 October 1-2, 2026",
+   "schedule": "October 13,15,16,26,27, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 267,
    "elig_g7": 0,
    "elig_g4f": 151,
@@ -399,16 +391,16 @@
    "no": 13,
    "name": "Pangantucan NHS",
    "barangay": "Poblacion",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-05",
-    "2026-10-06",
-    "2026-10-08",
-    "2026-10-09"
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-29",
+    "2026-10-30"
    ],
-   "schedule": "October 5-6, 2026. October 8-9, 2026",
+   "schedule": "October 19,20,29,30, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-19",
    "elig_g1": 0,
    "elig_g7": 456,
    "elig_g4f": 0,
@@ -432,13 +424,13 @@
    "no": 14,
    "name": "Portulin ES",
    "barangay": "Portulin",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01"
+    "2026-10-12"
    ],
-   "schedule": "October 01, 2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 21,
    "elig_g7": 0,
    "elig_g4f": 5,
@@ -462,13 +454,13 @@
    "no": 15,
    "name": "Sinasaan ES",
    "barangay": "Portulin",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-02"
+    "2026-10-12"
    ],
-   "schedule": "October 02, 2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 15,
    "elig_g7": 0,
    "elig_g4f": 8,
@@ -492,13 +484,14 @@
    "no": 16,
    "name": "Balogo ES",
    "barangay": "Langcataon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28"
+    "2026-10-13",
+    "2026-10-15"
    ],
-   "schedule": "September 28, 2026",
+   "schedule": "October 13&15, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 23,
    "elig_g7": 0,
    "elig_g4f": 9,
@@ -522,14 +515,14 @@
    "no": 17,
    "name": "Langcataon CES",
    "barangay": "Langcataon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-19",
+    "2026-10-20"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 19&20, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-19",
    "elig_g1": 40,
    "elig_g7": 0,
    "elig_g4f": 16,
@@ -553,14 +546,14 @@
    "no": 18,
    "name": "Langcataon NHS",
    "barangay": "Langcataon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-06",
-    "2026-10-07"
+    "2026-10-26",
+    "2026-10-27"
    ],
-   "schedule": "October 6-7,2026",
+   "schedule": "October 26&27, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-26",
    "elig_g1": 0,
    "elig_g7": 88,
    "elig_g4f": 0,
@@ -584,15 +577,14 @@
    "no": 19,
    "name": "Bangahan IS",
    "barangay": "Bangahan",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28",
-    "2026-09-29",
-    "2026-10-01"
+    "2026-10-13",
+    "2026-10-14"
    ],
-   "schedule": "September 28-29, 2026 October 1, 2026",
+   "schedule": "October 13&14, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 50,
    "elig_g7": 60,
    "elig_g4f": 31,
@@ -618,12 +610,11 @@
    "barangay": "Bangahan",
    "status": "upcoming",
    "dates": [
-    "2026-10-12",
-    "2026-10-13"
+    "2026-10-19"
    ],
-   "schedule": "October 12-13, 2026",
+   "schedule": "October 19, 2026",
    "today": false,
-   "next_date": "2026-10-12",
+   "next_date": "2026-10-19",
    "elig_g1": 13,
    "elig_g7": 0,
    "elig_g4f": 9,
@@ -647,14 +638,13 @@
    "no": 21,
    "name": "Kimanait ES",
    "barangay": "Kimanait",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-13"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 66,
    "elig_g7": 0,
    "elig_g4f": 36,
@@ -678,14 +668,13 @@
    "no": 22,
    "name": "Kimanait NHS",
    "barangay": "Kimanait",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-06",
-    "2026-10-07"
+    "2026-10-12"
    ],
-   "schedule": "October 6-7,2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 0,
    "elig_g7": 86,
    "elig_g4f": 0,
@@ -709,13 +698,13 @@
    "no": 23,
    "name": "Pangadian Té Apu Mansadék",
    "barangay": "Kimanait",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-08"
+    "2026-10-14"
    ],
-   "schedule": "October 8, 2026",
+   "schedule": "October 14, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-14",
    "elig_g1": 8,
    "elig_g7": 0,
    "elig_g4f": 5,
@@ -739,13 +728,13 @@
    "no": 24,
    "name": "Kipaducan ES",
    "barangay": "Kipaducan",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-08"
+    "2026-10-19"
    ],
-   "schedule": "October 08, 2026",
+   "schedule": "October 19, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-19",
    "elig_g1": 22,
    "elig_g7": 0,
    "elig_g4f": 15,
@@ -769,13 +758,13 @@
    "no": 25,
    "name": "New Ilo-ilo ES",
    "barangay": "Kipaducan",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-09"
+    "2026-10-19"
    ],
-   "schedule": "October 09, 2026",
+   "schedule": "October 19, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-19",
    "elig_g1": 9,
    "elig_g7": 0,
    "elig_g4f": 1,
@@ -799,14 +788,13 @@
    "no": 26,
    "name": "Malipayon ES",
    "barangay": "Malipayon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-13"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 74,
    "elig_g7": 0,
    "elig_g4f": 29,
@@ -830,14 +818,13 @@
    "no": 27,
    "name": "Payad ES",
    "barangay": "Payad",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28",
-    "2026-09-29"
+    "2026-10-14"
    ],
-   "schedule": "September 28-29, 2026",
+   "schedule": "October 14, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-14",
    "elig_g1": 19,
    "elig_g7": 0,
    "elig_g4f": 4,
@@ -861,14 +848,13 @@
    "no": 28,
    "name": "Bacusanon CES",
    "barangay": "Bacusanon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-28",
-    "2026-09-29"
+    "2026-10-12"
    ],
-   "schedule": "September 28-29, 2026",
+   "schedule": "October 12, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-12",
    "elig_g1": 97,
    "elig_g7": 0,
    "elig_g4f": 38,
@@ -892,14 +878,13 @@
    "no": 29,
    "name": "Bacusanon NHS",
    "barangay": "Bacusanon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-15"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 15, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-15",
    "elig_g1": 0,
    "elig_g7": 195,
    "elig_g4f": 0,
@@ -923,14 +908,13 @@
    "no": 30,
    "name": "Quarry ES",
    "barangay": "Bacusanon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-30",
-    "2026-10-01"
+    "2026-10-16"
    ],
-   "schedule": "September 30, 2026 & October 1, 2026",
+   "schedule": "October 16, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-16",
    "elig_g1": 22,
    "elig_g7": 0,
    "elig_g4f": 14,
@@ -954,14 +938,13 @@
    "no": 31,
    "name": "San Guinto IS",
    "barangay": "Bacusanon",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-09-30",
-    "2026-10-01"
+    "2026-10-13"
    ],
-   "schedule": "September 30, 2026 & October 1, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 29,
    "elig_g7": 29,
    "elig_g4f": 8,
@@ -985,13 +968,13 @@
    "no": 32,
    "name": "Balmar ES",
    "barangay": "Nabaliwa",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01"
+    "2026-10-22"
    ],
-   "schedule": "October 01, 2026",
+   "schedule": "October 22, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-22",
    "elig_g1": 13,
    "elig_g7": 0,
    "elig_g4f": 5,
@@ -1015,14 +998,13 @@
    "no": 33,
    "name": "Nabaliwa ES",
    "barangay": "Nabaliwa",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-02",
-    "2026-10-06"
+    "2026-10-21"
    ],
-   "schedule": "October 2&6, 2026",
+   "schedule": "October 21, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-21",
    "elig_g1": 30,
    "elig_g7": 0,
    "elig_g4f": 21,
@@ -1046,14 +1028,13 @@
    "no": 34,
    "name": "Iliyan Te Apu Méndépéten",
    "barangay": "Pigtauranan",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-20"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 20, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-20",
    "elig_g1": 10,
    "elig_g7": 0,
    "elig_g4f": 3,
@@ -1077,15 +1058,13 @@
    "no": 35,
    "name": "Pigtauranan ES",
    "barangay": "Pigtauranan",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-05",
-    "2026-10-06",
-    "2026-10-07"
+    "2026-10-13"
    ],
-   "schedule": "October 5-7, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 81,
    "elig_g7": 51,
    "elig_g4f": 38,
@@ -1109,14 +1088,13 @@
    "no": 36,
    "name": "Madaya ES",
    "barangay": "Madaya",
-   "status": "done",
+   "status": "upcoming",
    "dates": [
-    "2026-10-01",
-    "2026-10-02"
+    "2026-10-13"
    ],
-   "schedule": "October 1-2, 2026",
+   "schedule": "October 13, 2026",
    "today": false,
-   "next_date": null,
+   "next_date": "2026-10-13",
    "elig_g1": 25,
    "elig_g7": 0,
    "elig_g4f": 22,
